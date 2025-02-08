@@ -22,7 +22,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.get('/',(req,res) => {
-  res.json("Welcome to JalSync API by team ramanujan (sih-2024)!!")
+  res.json("Welcome to MarketPulse API!!")
 });
 app.use('/api/auth', authRoutes);
 app.use('/api/upload', uploadRoutes);
